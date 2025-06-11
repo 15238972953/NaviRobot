@@ -1,0 +1,20 @@
+[0.202s] Invoking command in '/mnt/e/UbuntuWSL/Perception-System/build/sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/e/UbuntuWSL/Perception-System/build/sensors -- -j16 -l16
+[0.298s] Invoked command in '/mnt/e/UbuntuWSL/Perception-System/build/sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/e/UbuntuWSL/Perception-System/build/sensors -- -j16 -l16
+[0.310s] Invoking command in '/mnt/e/UbuntuWSL/Perception-System/build/sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/e/UbuntuWSL/Perception-System/build/sensors
+[0.329s] -- Install configuration: ""
+[0.340s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/sensors/share/ament_index/resource_index/package_run_dependencies/sensors
+[0.368s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/sensors/share/ament_index/resource_index/parent_prefix_path/sensors
+[0.381s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/sensors/share/sensors/environment/ament_prefix_path.sh
+[0.399s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/sensors/share/sensors/environment/ament_prefix_path.dsv
+[0.419s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/sensors/share/sensors/environment/path.sh
+[0.436s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/sensors/share/sensors/environment/path.dsv
+[0.452s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/sensors/share/sensors/local_setup.bash
+[0.466s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/sensors/share/sensors/local_setup.sh
+[0.481s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/sensors/share/sensors/local_setup.zsh
+[0.497s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/sensors/share/sensors/local_setup.dsv
+[0.512s] -- Installing: /mnt/e/UbuntuWSL/Perception-System/install/sensors/share/sensors/package.dsv
+[0.571s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/sensors/share/ament_index/resource_index/packages/sensors
+[0.590s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/sensors/share/sensors/cmake/sensorsConfig.cmake
+[0.603s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/sensors/share/sensors/cmake/sensorsConfig-version.cmake
+[0.618s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/sensors/share/sensors/package.xml
+[1.304s] Invoked command in '/mnt/e/UbuntuWSL/Perception-System/build/sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/e/UbuntuWSL/Perception-System/build/sensors

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<xacro:macro name="radar" >
+  <link name="radar_link">
+    <visual>
+      <geometry>
+        <sphere radius="0.15"/>
+      </geometry>
+      <material name="red"/>
+    </visual>
+    <collision>
+      <geometry>
+        <sphere radius="0.15"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="chassis_to_radar" type="fixed">
+    <parent link="chassis"/>
+    <child link="radar_link"/>
+    <origin xyz="0 0.9 0.5" rpy="0 0 0"/>
+  </joint>
+</xacro:macro>
+
+<!-- 调用毫米波雷达宏 -->
+<xacro:radar/>

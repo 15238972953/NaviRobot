@@ -1,0 +1,355 @@
+[0.403s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.404s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x786d4a73b280>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x786d4a73acb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x786d4a73acb0>>)
+[0.612s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.612s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.612s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.612s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.612s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.612s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.612s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/mnt/e/UbuntuWSL/Perception-System'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_world) by extensions ['ignore', 'ignore_ament_install']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_world) by extension 'ignore'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_world) by extension 'ignore_ament_install'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_world) by extensions ['colcon_pkg']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_world) by extension 'colcon_pkg'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_world) by extensions ['colcon_meta']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_world) by extension 'colcon_meta'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_world) by extensions ['ros']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_world) by extension 'ros'
+[0.655s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_world' with type 'ros.ament_cmake' and name 'gazebo_world'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'ignore'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'ignore_ament_install'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['colcon_pkg']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'colcon_pkg'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['colcon_meta']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'colcon_meta'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['ros']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'ros'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['cmake', 'python']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'cmake'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'python'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['python_setup_py']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'python_setup_py'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extensions ['ignore', 'ignore_ament_install']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extension 'ignore'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extension 'ignore_ament_install'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extensions ['colcon_pkg']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extension 'colcon_pkg'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extensions ['colcon_meta']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extension 'colcon_meta'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extensions ['ros']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extension 'ros'
+[0.679s] DEBUG:colcon.colcon_core.package_identification:Package 'src/perception' with type 'ros.ament_cmake' and name 'perception'
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extensions ['ignore', 'ignore_ament_install']
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'ignore'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'ignore_ament_install'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extensions ['colcon_pkg']
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'colcon_pkg'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extensions ['colcon_meta']
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'colcon_meta'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extensions ['ros']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'ros'
+[0.697s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensors' with type 'ros.ament_cmake' and name 'sensors'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extensions ['ignore', 'ignore_ament_install']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'ignore'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'ignore_ament_install'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extensions ['colcon_pkg']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'colcon_pkg'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extensions ['colcon_meta']
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'colcon_meta'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extensions ['ros']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'ros'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extensions ['cmake', 'python']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'cmake'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'python'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extensions ['python_setup_py']
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'python_setup_py'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_description) by extensions ['ignore', 'ignore_ament_install']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_description) by extension 'ignore'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_description) by extension 'ignore_ament_install'
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_description) by extensions ['colcon_pkg']
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_description) by extension 'colcon_pkg'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_description) by extensions ['colcon_meta']
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_description) by extension 'colcon_meta'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_description) by extensions ['ros']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_description) by extension 'ros'
+[0.733s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vehicle_description' with type 'ros.ament_cmake' and name 'vehicle_description'
+[0.733s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.733s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.733s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.734s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.734s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.763s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.763s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.850s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /mnt/e/UbuntuWSL/Perception-System/install
+[0.852s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 281 installed packages in /opt/ros/humble
+[0.853s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'gazebo_world' build argument 'cmake_args' from command line to 'None'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'gazebo_world' build argument 'cmake_target' from command line to 'None'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'gazebo_world' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'gazebo_world' build argument 'cmake_clean_cache' from command line to 'False'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'gazebo_world' build argument 'cmake_clean_first' from command line to 'False'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'gazebo_world' build argument 'cmake_force_configure' from command line to 'False'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'gazebo_world' build argument 'ament_cmake_args' from command line to 'None'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'gazebo_world' build argument 'catkin_cmake_args' from command line to 'None'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'gazebo_world' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.937s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_world' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/e/UbuntuWSL/Perception-System/build/gazebo_world', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/e/UbuntuWSL/Perception-System/install/gazebo_world', 'merge_install': False, 'path': '/mnt/e/UbuntuWSL/Perception-System/src/gazebo_world', 'symlink_install': False, 'test_result_base': None}
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'cmake_args' from command line to 'None'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'cmake_target' from command line to 'None'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'cmake_clean_cache' from command line to 'False'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'cmake_clean_first' from command line to 'False'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'cmake_force_configure' from command line to 'False'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'ament_cmake_args' from command line to 'None'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'catkin_cmake_args' from command line to 'None'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.938s] DEBUG:colcon.colcon_core.verb:Building package 'perception' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/e/UbuntuWSL/Perception-System/build/perception', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/e/UbuntuWSL/Perception-System/install/perception', 'merge_install': False, 'path': '/mnt/e/UbuntuWSL/Perception-System/src/perception', 'symlink_install': False, 'test_result_base': None}
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_args' from command line to 'None'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_target' from command line to 'None'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_clean_cache' from command line to 'False'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_clean_first' from command line to 'False'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_force_configure' from command line to 'False'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'ament_cmake_args' from command line to 'None'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'catkin_cmake_args' from command line to 'None'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.939s] DEBUG:colcon.colcon_core.verb:Building package 'sensors' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/e/UbuntuWSL/Perception-System/build/sensors', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/e/UbuntuWSL/Perception-System/install/sensors', 'merge_install': False, 'path': '/mnt/e/UbuntuWSL/Perception-System/src/sensors', 'symlink_install': False, 'test_result_base': None}
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'vehicle_description' build argument 'cmake_args' from command line to 'None'
+[0.940s] Level 5:colcon.colcon_core.verb:set package 'vehicle_description' build argument 'cmake_target' from command line to 'None'
+[0.940s] Level 5:colcon.colcon_core.verb:set package 'vehicle_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.940s] Level 5:colcon.colcon_core.verb:set package 'vehicle_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.940s] Level 5:colcon.colcon_core.verb:set package 'vehicle_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.940s] Level 5:colcon.colcon_core.verb:set package 'vehicle_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.940s] Level 5:colcon.colcon_core.verb:set package 'vehicle_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.940s] Level 5:colcon.colcon_core.verb:set package 'vehicle_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.940s] Level 5:colcon.colcon_core.verb:set package 'vehicle_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.940s] DEBUG:colcon.colcon_core.verb:Building package 'vehicle_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/e/UbuntuWSL/Perception-System/build/vehicle_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/e/UbuntuWSL/Perception-System/install/vehicle_description', 'merge_install': False, 'path': '/mnt/e/UbuntuWSL/Perception-System/src/vehicle_description', 'symlink_install': False, 'test_result_base': None}
+[0.940s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.941s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.941s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/mnt/e/UbuntuWSL/Perception-System/src/gazebo_world' with build type 'ament_cmake'
+[0.942s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/mnt/e/UbuntuWSL/Perception-System/src/gazebo_world'
+[0.947s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.947s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.947s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.999s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/mnt/e/UbuntuWSL/Perception-System/src/perception' with build type 'ament_cmake'
+[1.000s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/mnt/e/UbuntuWSL/Perception-System/src/perception'
+[1.000s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.000s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.054s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/mnt/e/UbuntuWSL/Perception-System/src/sensors' with build type 'ament_cmake'
+[1.054s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/mnt/e/UbuntuWSL/Perception-System/src/sensors'
+[1.055s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.055s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.103s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/mnt/e/UbuntuWSL/Perception-System/src/vehicle_description' with build type 'ament_cmake'
+[1.104s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/mnt/e/UbuntuWSL/Perception-System/src/vehicle_description'
+[1.104s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.105s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/e/UbuntuWSL/Perception-System/build/gazebo_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/e/UbuntuWSL/Perception-System/build/gazebo_world -- -j16 -l16
+[1.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/e/UbuntuWSL/Perception-System/build/perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/e/UbuntuWSL/Perception-System/build/perception -- -j16 -l16
+[1.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/e/UbuntuWSL/Perception-System/build/sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/e/UbuntuWSL/Perception-System/build/sensors -- -j16 -l16
+[1.283s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/e/UbuntuWSL/Perception-System/build/vehicle_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/e/UbuntuWSL/Perception-System/build/vehicle_description -- -j16 -l16
+[1.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/e/UbuntuWSL/Perception-System/build/gazebo_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/e/UbuntuWSL/Perception-System/build/gazebo_world -- -j16 -l16
+[1.338s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/e/UbuntuWSL/Perception-System/build/gazebo_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/e/UbuntuWSL/Perception-System/build/gazebo_world
+[1.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/e/UbuntuWSL/Perception-System/build/perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/e/UbuntuWSL/Perception-System/build/perception -- -j16 -l16
+[1.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/e/UbuntuWSL/Perception-System/build/perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/e/UbuntuWSL/Perception-System/build/perception
+[1.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/e/UbuntuWSL/Perception-System/build/sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/e/UbuntuWSL/Perception-System/build/sensors -- -j16 -l16
+[1.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/e/UbuntuWSL/Perception-System/build/sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/e/UbuntuWSL/Perception-System/build/sensors
+[1.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/e/UbuntuWSL/Perception-System/build/vehicle_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/e/UbuntuWSL/Perception-System/build/vehicle_description -- -j16 -l16
+[1.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/e/UbuntuWSL/Perception-System/build/vehicle_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/e/UbuntuWSL/Perception-System/build/vehicle_description
+[1.651s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_world)
+[1.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/e/UbuntuWSL/Perception-System/build/gazebo_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/e/UbuntuWSL/Perception-System/build/gazebo_world
+[1.657s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/gazebo_world' for CMake module files
+[1.701s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/gazebo_world' for CMake config files
+[1.734s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_world', 'cmake_prefix_path')
+[1.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/e/UbuntuWSL/Perception-System/install/gazebo_world/share/gazebo_world/hook/cmake_prefix_path.ps1'
+[1.742s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/e/UbuntuWSL/Perception-System/install/gazebo_world/share/gazebo_world/hook/cmake_prefix_path.dsv'
+[1.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/e/UbuntuWSL/Perception-System/install/gazebo_world/share/gazebo_world/hook/cmake_prefix_path.sh'
+[1.766s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/gazebo_world/bin'
+[1.767s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/gazebo_world/lib/pkgconfig/gazebo_world.pc'
+[1.768s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/gazebo_world/lib/python3.10/site-packages'
+[1.769s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/gazebo_world/bin'
+[1.770s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/e/UbuntuWSL/Perception-System/install/gazebo_world/share/gazebo_world/package.ps1'
+[1.778s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/e/UbuntuWSL/Perception-System/install/gazebo_world/share/gazebo_world/package.dsv'
+[1.786s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/e/UbuntuWSL/Perception-System/install/gazebo_world/share/gazebo_world/package.sh'
+[1.793s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/e/UbuntuWSL/Perception-System/install/gazebo_world/share/gazebo_world/package.bash'
+[1.799s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/e/UbuntuWSL/Perception-System/install/gazebo_world/share/gazebo_world/package.zsh'
+[1.806s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/e/UbuntuWSL/Perception-System/install/gazebo_world/share/colcon-core/packages/gazebo_world)
+[1.820s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_world)
+[1.820s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/gazebo_world' for CMake module files
+[1.861s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/gazebo_world' for CMake config files
+[1.889s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_world', 'cmake_prefix_path')
+[1.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/e/UbuntuWSL/Perception-System/install/gazebo_world/share/gazebo_world/hook/cmake_prefix_path.ps1'
+[1.896s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/e/UbuntuWSL/Perception-System/install/gazebo_world/share/gazebo_world/hook/cmake_prefix_path.dsv'
+[1.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/e/UbuntuWSL/Perception-System/install/gazebo_world/share/gazebo_world/hook/cmake_prefix_path.sh'
+[1.918s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/gazebo_world/bin'
+[1.920s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/gazebo_world/lib/pkgconfig/gazebo_world.pc'
+[1.921s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/gazebo_world/lib/python3.10/site-packages'
+[1.922s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/gazebo_world/bin'
+[1.924s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/e/UbuntuWSL/Perception-System/install/gazebo_world/share/gazebo_world/package.ps1'
+[1.934s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/e/UbuntuWSL/Perception-System/install/gazebo_world/share/gazebo_world/package.dsv'
+[1.946s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/e/UbuntuWSL/Perception-System/install/gazebo_world/share/gazebo_world/package.sh'
+[1.954s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/e/UbuntuWSL/Perception-System/install/gazebo_world/share/gazebo_world/package.bash'
+[1.961s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/e/UbuntuWSL/Perception-System/install/gazebo_world/share/gazebo_world/package.zsh'
+[1.969s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/e/UbuntuWSL/Perception-System/install/gazebo_world/share/colcon-core/packages/gazebo_world)
+[1.975s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(perception)
+[1.975s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/perception' for CMake module files
+[1.980s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/e/UbuntuWSL/Perception-System/build/perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/e/UbuntuWSL/Perception-System/build/perception
+[2.021s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/perception' for CMake config files
+[2.052s] Level 1:colcon.colcon_core.shell:create_environment_hook('perception', 'cmake_prefix_path')
+[2.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/hook/cmake_prefix_path.ps1'
+[2.060s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/hook/cmake_prefix_path.dsv'
+[2.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/hook/cmake_prefix_path.sh'
+[2.078s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/perception/bin'
+[2.078s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/perception/lib/pkgconfig/perception.pc'
+[2.079s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/perception/lib/python3.10/site-packages'
+[2.080s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/perception/bin'
+[2.081s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/package.ps1'
+[2.086s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/package.dsv'
+[2.091s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/package.sh'
+[2.098s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/package.bash'
+[2.107s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/package.zsh'
+[2.112s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/e/UbuntuWSL/Perception-System/install/perception/share/colcon-core/packages/perception)
+[2.126s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(perception)
+[2.127s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/perception' for CMake module files
+[2.160s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/perception' for CMake config files
+[2.203s] Level 1:colcon.colcon_core.shell:create_environment_hook('perception', 'cmake_prefix_path')
+[2.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/hook/cmake_prefix_path.ps1'
+[2.213s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/hook/cmake_prefix_path.dsv'
+[2.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/hook/cmake_prefix_path.sh'
+[2.277s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/perception/bin'
+[2.278s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/perception/lib/pkgconfig/perception.pc'
+[2.279s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/perception/lib/python3.10/site-packages'
+[2.280s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/perception/bin'
+[2.282s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/package.ps1'
+[2.291s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/package.dsv'
+[2.298s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/package.sh'
+[2.303s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/package.bash'
+[2.317s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/package.zsh'
+[2.330s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/e/UbuntuWSL/Perception-System/install/perception/share/colcon-core/packages/perception)
+[2.346s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensors)
+[2.347s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/sensors' for CMake module files
+[2.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/e/UbuntuWSL/Perception-System/build/sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/e/UbuntuWSL/Perception-System/build/sensors
+[2.388s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/sensors' for CMake config files
+[2.429s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensors', 'cmake_prefix_path')
+[2.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/e/UbuntuWSL/Perception-System/install/sensors/share/sensors/hook/cmake_prefix_path.ps1'
+[2.437s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/e/UbuntuWSL/Perception-System/install/sensors/share/sensors/hook/cmake_prefix_path.dsv'
+[2.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/e/UbuntuWSL/Perception-System/install/sensors/share/sensors/hook/cmake_prefix_path.sh'
+[2.466s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/sensors/bin'
+[2.467s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/sensors/lib/pkgconfig/sensors.pc'
+[2.467s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/sensors/lib/python3.10/site-packages'
+[2.468s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/sensors/bin'
+[2.469s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/e/UbuntuWSL/Perception-System/install/sensors/share/sensors/package.ps1'
+[2.486s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/e/UbuntuWSL/Perception-System/install/sensors/share/sensors/package.dsv'
+[2.500s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/e/UbuntuWSL/Perception-System/install/sensors/share/sensors/package.sh'
+[2.506s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/e/UbuntuWSL/Perception-System/install/sensors/share/sensors/package.bash'
+[2.518s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/e/UbuntuWSL/Perception-System/install/sensors/share/sensors/package.zsh'
+[2.525s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/e/UbuntuWSL/Perception-System/install/sensors/share/colcon-core/packages/sensors)
+[2.537s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensors)
+[2.537s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/sensors' for CMake module files
+[2.615s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/sensors' for CMake config files
+[2.649s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensors', 'cmake_prefix_path')
+[2.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/e/UbuntuWSL/Perception-System/install/sensors/share/sensors/hook/cmake_prefix_path.ps1'
+[2.659s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/e/UbuntuWSL/Perception-System/install/sensors/share/sensors/hook/cmake_prefix_path.dsv'
+[2.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/e/UbuntuWSL/Perception-System/install/sensors/share/sensors/hook/cmake_prefix_path.sh'
+[2.675s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/sensors/bin'
+[2.675s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/sensors/lib/pkgconfig/sensors.pc'
+[2.676s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/sensors/lib/python3.10/site-packages'
+[2.677s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/sensors/bin'
+[2.678s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/e/UbuntuWSL/Perception-System/install/sensors/share/sensors/package.ps1'
+[2.684s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/e/UbuntuWSL/Perception-System/install/sensors/share/sensors/package.dsv'
+[2.689s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/e/UbuntuWSL/Perception-System/install/sensors/share/sensors/package.sh'
+[2.695s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/e/UbuntuWSL/Perception-System/install/sensors/share/sensors/package.bash'
+[2.700s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/e/UbuntuWSL/Perception-System/install/sensors/share/sensors/package.zsh'
+[2.705s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/e/UbuntuWSL/Perception-System/install/sensors/share/colcon-core/packages/sensors)
+[2.709s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vehicle_description)
+[2.709s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/vehicle_description' for CMake module files
+[2.715s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/e/UbuntuWSL/Perception-System/build/vehicle_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/e/UbuntuWSL/Perception-System/build/vehicle_description
+[2.765s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/vehicle_description' for CMake config files
+[2.793s] Level 1:colcon.colcon_core.shell:create_environment_hook('vehicle_description', 'cmake_prefix_path')
+[2.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description/hook/cmake_prefix_path.ps1'
+[2.799s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description/hook/cmake_prefix_path.dsv'
+[2.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description/hook/cmake_prefix_path.sh'
+[2.818s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/bin'
+[2.818s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/lib/pkgconfig/vehicle_description.pc'
+[2.819s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/lib/python3.10/site-packages'
+[2.820s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/bin'
+[2.820s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description/package.ps1'
+[2.825s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description/package.dsv'
+[2.838s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description/package.sh'
+[2.853s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description/package.bash'
+[2.860s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description/package.zsh'
+[2.865s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/colcon-core/packages/vehicle_description)
+[2.876s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vehicle_description)
+[2.876s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/vehicle_description' for CMake module files
+[2.923s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/vehicle_description' for CMake config files
+[2.954s] Level 1:colcon.colcon_core.shell:create_environment_hook('vehicle_description', 'cmake_prefix_path')
+[2.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description/hook/cmake_prefix_path.ps1'
+[2.963s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description/hook/cmake_prefix_path.dsv'
+[2.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description/hook/cmake_prefix_path.sh'
+[2.983s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/bin'
+[2.984s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/lib/pkgconfig/vehicle_description.pc'
+[2.984s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/lib/python3.10/site-packages'
+[2.985s] Level 1:colcon.colcon_core.environment:checking '/mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/bin'
+[2.986s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description/package.ps1'
+[2.992s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description/package.dsv'
+[2.997s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description/package.sh'
+[3.002s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description/package.bash'
+[3.008s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description/package.zsh'
+[3.012s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/colcon-core/packages/vehicle_description)
+[3.016s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.016s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.017s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.017s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.079s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[3.079s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.079s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.079s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.080s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[3.080s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.080s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/e/UbuntuWSL/Perception-System/install/local_setup.ps1'
+[3.084s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/e/UbuntuWSL/Perception-System/install/_local_setup_util_ps1.py'
+[3.089s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/e/UbuntuWSL/Perception-System/install/setup.ps1'
+[3.116s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/e/UbuntuWSL/Perception-System/install/local_setup.sh'
+[3.120s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/e/UbuntuWSL/Perception-System/install/_local_setup_util_sh.py'
+[3.123s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/e/UbuntuWSL/Perception-System/install/setup.sh'
+[3.145s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/e/UbuntuWSL/Perception-System/install/local_setup.bash'
+[3.148s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/e/UbuntuWSL/Perception-System/install/setup.bash'
+[3.171s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/e/UbuntuWSL/Perception-System/install/local_setup.zsh'
+[3.176s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/e/UbuntuWSL/Perception-System/install/setup.zsh'

@@ -1,0 +1,15 @@
+/mnt/e/UbuntuWSL/Perception-System/install/perception/share/ament_index/resource_index/package_run_dependencies/perception
+/mnt/e/UbuntuWSL/Perception-System/install/perception/share/ament_index/resource_index/parent_prefix_path/perception
+/mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/environment/ament_prefix_path.sh
+/mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/environment/ament_prefix_path.dsv
+/mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/environment/path.sh
+/mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/environment/path.dsv
+/mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/local_setup.bash
+/mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/local_setup.sh
+/mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/local_setup.zsh
+/mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/local_setup.dsv
+/mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/package.dsv
+/mnt/e/UbuntuWSL/Perception-System/install/perception/share/ament_index/resource_index/packages/perception
+/mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/cmake/perceptionConfig.cmake
+/mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/cmake/perceptionConfig-version.cmake
+/mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/package.xml

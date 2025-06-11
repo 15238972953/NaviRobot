@@ -1,0 +1,20 @@
+[0.227s] Invoking command in '/mnt/e/UbuntuWSL/Perception-System/build/perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/e/UbuntuWSL/Perception-System/build/perception -- -j16 -l16
+[0.308s] Invoked command in '/mnt/e/UbuntuWSL/Perception-System/build/perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/e/UbuntuWSL/Perception-System/build/perception -- -j16 -l16
+[0.324s] Invoking command in '/mnt/e/UbuntuWSL/Perception-System/build/perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/e/UbuntuWSL/Perception-System/build/perception
+[0.330s] -- Install configuration: ""
+[0.352s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/perception/share/ament_index/resource_index/package_run_dependencies/perception
+[0.382s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/perception/share/ament_index/resource_index/parent_prefix_path/perception
+[0.395s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/environment/ament_prefix_path.sh
+[0.412s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/environment/ament_prefix_path.dsv
+[0.424s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/environment/path.sh
+[0.441s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/environment/path.dsv
+[0.456s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/local_setup.bash
+[0.471s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/local_setup.sh
+[0.485s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/local_setup.zsh
+[0.500s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/local_setup.dsv
+[0.514s] -- Installing: /mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/package.dsv
+[0.575s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/perception/share/ament_index/resource_index/packages/perception
+[0.593s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/cmake/perceptionConfig.cmake
+[0.605s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/cmake/perceptionConfig-version.cmake
+[0.622s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/perception/share/perception/package.xml
+[0.952s] Invoked command in '/mnt/e/UbuntuWSL/Perception-System/build/perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/e/UbuntuWSL/Perception-System/build/perception

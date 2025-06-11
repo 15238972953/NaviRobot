@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<xacro:macro name="car_body" >
+  <link name="chassis">
+    <visual>
+      <geometry>
+        <box size="2 1 0.5"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="2 1 0.5"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="base_to_chassis" type="fixed">
+    <parent link="base_link"/>
+    <child link="chassis"/>
+  </joint>
+</xacro:macro>
+
+<!-- 调用车身宏 -->
+<xacro:car_body/>

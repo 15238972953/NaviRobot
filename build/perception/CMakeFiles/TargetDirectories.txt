@@ -1,0 +1,9 @@
+/mnt/e/UbuntuWSL/Perception-System/build/perception/CMakeFiles/uninstall.dir
+/mnt/e/UbuntuWSL/Perception-System/build/perception/CMakeFiles/perception_uninstall.dir
+/mnt/e/UbuntuWSL/Perception-System/build/perception/CMakeFiles/test.dir
+/mnt/e/UbuntuWSL/Perception-System/build/perception/CMakeFiles/edit_cache.dir
+/mnt/e/UbuntuWSL/Perception-System/build/perception/CMakeFiles/rebuild_cache.dir
+/mnt/e/UbuntuWSL/Perception-System/build/perception/CMakeFiles/list_install_components.dir
+/mnt/e/UbuntuWSL/Perception-System/build/perception/CMakeFiles/install.dir
+/mnt/e/UbuntuWSL/Perception-System/build/perception/CMakeFiles/install/local.dir
+/mnt/e/UbuntuWSL/Perception-System/build/perception/CMakeFiles/install/strip.dir

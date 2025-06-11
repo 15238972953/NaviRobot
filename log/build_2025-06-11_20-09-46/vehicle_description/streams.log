@@ -1,0 +1,29 @@
+[0.083s] Invoking command in '/mnt/e/UbuntuWSL/Perception-System/build/vehicle_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/e/UbuntuWSL/Perception-System/build/vehicle_description -- -j16 -l16
+[0.161s] Invoked command in '/mnt/e/UbuntuWSL/Perception-System/build/vehicle_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/e/UbuntuWSL/Perception-System/build/vehicle_description -- -j16 -l16
+[0.181s] Invoking command in '/mnt/e/UbuntuWSL/Perception-System/build/vehicle_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/e/UbuntuWSL/Perception-System/build/vehicle_description
+[0.188s] -- Install configuration: ""
+[0.198s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description//launch
+[0.214s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description//launch/vehicle_gazebo.launch.py
+[0.222s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description//urdf
+[0.238s] -- Installing: /mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description//urdf/camera_sensor.xacro
+[0.275s] -- Installing: /mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description//urdf/lidar_sensor.xacro
+[0.319s] -- Installing: /mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description//urdf/radar_sensor.xacro
+[0.363s] -- Installing: /mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description//urdf/sensors.xacro
+[0.409s] -- Installing: /mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description//urdf/vehicle.xacro
+[0.458s] -- Installing: /mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description//urdf/vehicle_with_sensors.xacro
+[0.503s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/ament_index/resource_index/package_run_dependencies/vehicle_description
+[0.518s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/ament_index/resource_index/parent_prefix_path/vehicle_description
+[0.528s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description/environment/ament_prefix_path.sh
+[0.542s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description/environment/ament_prefix_path.dsv
+[0.566s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description/environment/path.sh
+[0.602s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description/environment/path.dsv
+[0.620s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description/local_setup.bash
+[0.631s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description/local_setup.sh
+[0.640s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description/local_setup.zsh
+[0.648s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description/local_setup.dsv
+[0.659s] -- Installing: /mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description/package.dsv
+[0.721s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/ament_index/resource_index/packages/vehicle_description
+[0.731s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description/cmake/vehicle_descriptionConfig.cmake
+[0.738s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description/cmake/vehicle_descriptionConfig-version.cmake
+[0.749s] -- Up-to-date: /mnt/e/UbuntuWSL/Perception-System/install/vehicle_description/share/vehicle_description/package.xml
+[0.755s] Invoked command in '/mnt/e/UbuntuWSL/Perception-System/build/vehicle_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/e/UbuntuWSL/Perception-System/build/vehicle_description

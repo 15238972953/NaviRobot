@@ -1,0 +1,9 @@
+/mnt/e/UbuntuWSL/Perception-System/build/sensors/CMakeFiles/uninstall.dir
+/mnt/e/UbuntuWSL/Perception-System/build/sensors/CMakeFiles/sensors_uninstall.dir
+/mnt/e/UbuntuWSL/Perception-System/build/sensors/CMakeFiles/test.dir
+/mnt/e/UbuntuWSL/Perception-System/build/sensors/CMakeFiles/edit_cache.dir
+/mnt/e/UbuntuWSL/Perception-System/build/sensors/CMakeFiles/rebuild_cache.dir
+/mnt/e/UbuntuWSL/Perception-System/build/sensors/CMakeFiles/list_install_components.dir
+/mnt/e/UbuntuWSL/Perception-System/build/sensors/CMakeFiles/install.dir
+/mnt/e/UbuntuWSL/Perception-System/build/sensors/CMakeFiles/install/local.dir
+/mnt/e/UbuntuWSL/Perception-System/build/sensors/CMakeFiles/install/strip.dir

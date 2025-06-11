@@ -1,0 +1,6 @@
+Invoking command in '/mnt/e/UbuntuWSL/Perception-System/build/sensors': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/e/UbuntuWSL/Perception-System/src/sensors -DCMAKE_INSTALL_PREFIX=/mnt/e/UbuntuWSL/Perception-System/install/sensors
+Invoked command in '/mnt/e/UbuntuWSL/Perception-System/build/sensors' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/e/UbuntuWSL/Perception-System/src/sensors -DCMAKE_INSTALL_PREFIX=/mnt/e/UbuntuWSL/Perception-System/install/sensors
+Invoking command in '/mnt/e/UbuntuWSL/Perception-System/build/sensors': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/e/UbuntuWSL/Perception-System/build/sensors -- -j16 -l16
+Invoked command in '/mnt/e/UbuntuWSL/Perception-System/build/sensors' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/e/UbuntuWSL/Perception-System/build/sensors -- -j16 -l16
+Invoking command in '/mnt/e/UbuntuWSL/Perception-System/build/sensors': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/e/UbuntuWSL/Perception-System/build/sensors
+Invoked command in '/mnt/e/UbuntuWSL/Perception-System/build/sensors' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/e/UbuntuWSL/Perception-System/build/sensors

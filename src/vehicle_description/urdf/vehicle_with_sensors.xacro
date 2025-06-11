@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="my_car">
+
+  <!-- 引入车身的xacro -->
+  <xacro:include filename="$(find my_robot_description)/urdf/vehicle.xacro"/>
+
+  <!-- 相机 -->
+  <xacro:include filename="$(find my_robot_description)/urdf/camera_sensor.xacro"/>
+
+  <!-- 激光雷达 -->
+  <xacro:include filename="$(find my_robot_description)/urdf/lidar_sensor.xacro"/>
+
+  <!-- 毫米波雷达 -->
+  <xacro:include filename="$(find my_robot_description)/urdf/radar_sensor.xacro"/>
+
+</robot>

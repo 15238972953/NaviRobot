@@ -1,0 +1,6 @@
+Invoking command in '/mnt/e/UbuntuWSL/Perception-System/build/gazebo_world': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/e/UbuntuWSL/Perception-System/src/gazebo_world -DCMAKE_INSTALL_PREFIX=/mnt/e/UbuntuWSL/Perception-System/install/gazebo_world
+Invoked command in '/mnt/e/UbuntuWSL/Perception-System/build/gazebo_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/e/UbuntuWSL/Perception-System/src/gazebo_world -DCMAKE_INSTALL_PREFIX=/mnt/e/UbuntuWSL/Perception-System/install/gazebo_world
+Invoking command in '/mnt/e/UbuntuWSL/Perception-System/build/gazebo_world': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/e/UbuntuWSL/Perception-System/build/gazebo_world -- -j16 -l16
+Invoked command in '/mnt/e/UbuntuWSL/Perception-System/build/gazebo_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/e/UbuntuWSL/Perception-System/build/gazebo_world -- -j16 -l16
+Invoking command in '/mnt/e/UbuntuWSL/Perception-System/build/gazebo_world': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/e/UbuntuWSL/Perception-System/build/gazebo_world
+Invoked command in '/mnt/e/UbuntuWSL/Perception-System/build/gazebo_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/e/UbuntuWSL/Perception-System/build/gazebo_world
