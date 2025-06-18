@@ -1,6 +1,11 @@
 # 自动驾驶感知系统
 
-工程目录：
+### 1、项目描述
+
+本项目用于在**ROS2+gezabo**环境下，实现**多传感器融合，BEV感知，多目标追踪**内容。
+
+**工程目录：**
+
 ```
 autonomous_perception_ws/
 ├── src/
@@ -37,6 +42,10 @@ autonomous_perception_ws/
 ├── build/
 ├── log/
 └── ros2_ws.env                         # 环境变量设置脚本（如 GAZEBO_MODEL_PATH）
-
 ```
 
+
+
+## 2、进度：
+
+实现gezabo模型描述文件。。。
