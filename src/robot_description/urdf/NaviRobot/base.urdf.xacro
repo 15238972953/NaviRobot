@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- ========== 机器人主体 ========== -->
+  <xacro:macro name="base_xacro" params="length radius">
+    <link name="base_link">
+        <!-- 视觉属性 -->
+        <visual>
+        <geometry>
+            <cylinder radius="${radius}" length="${length}"/>
+        </geometry>
+        <material name="white">
+            <color rgba="1.0 1.0 1.0 0.5"/>
+        </material>
+        </visual>
+    </link>
+  </xacro:macro>
+</robot>

@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<robot name="cylinder_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- ========== 机器人主体 ========== -->
+  <link name="base_link">
+    <!-- 视觉属性 -->
+    <visual>
+      <geometry>
+        <cylinder radius="0.2" length="0.5"/>
+      </geometry>
+      <material name="blue">
+        <color rgba="0 0 0.8 1"/>
+      </material>
+    </visual>
+    
+    <!-- 碰撞属性 -->
+    <collision>
+      <geometry>
+        <cylinder radius="0.2" length="0.5"/>
+      </geometry>
+    </collision>
+    
+    <!-- 惯性参数 -->
+    <inertial>
+      <mass value="5.0"/>
+      <inertia ixx="0.104167" ixy="0" ixz="0"
+               iyy="0.104167" iyz="0"
+               izz="0.1"/>
+    </inertial>
+  </link>
+
+  <!-- ========== IMU传感器 ========== -->
+  <link name="imu_link">
+    <visual>
+      <geometry>
+        <box size="0.05 0.05 0.05"/>
+      </geometry>
+      <material name="red">
+        <color rgba="0.8 0 0 1"/>
+      </material>
+    </visual>
+    
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="0.0000417" ixy="0" ixz="0"
+               iyy="0.0000417" iyz="0"
+               izz="0.0000417"/>
+    </inertial>
+  </link>
+
+  <!-- ========== 固定IMU到机器人顶部 ========== -->
+  <joint name="imu_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="imu_link"/>
+    <!-- 位置：机器人顶部中心 (0.5/2 + 0.05/2 = 0.275) -->
+    <origin xyz="0 0 0.275" rpy="0 0 0"/>
+  </joint>
+
+  <!-- ========== Gazebo插件 ========== -->
+  <gazebo reference="imu_link">
+    <sensor name="imu_sensor" type="imu">
+      <always_on>true</always_on>
+      <update_rate>100</update_rate>
+      <visualize>true</visualize>
+      <topic>imu/data</topic>
+      <plugin filename="libgazebo_ros_imu_sensor.so" name="imu_plugin">
+        <ros>
+          <namespace>/sensors</namespace>
+          <remapping>~/out:=imu/data</remapping>
+        </ros>
+      </plugin>
+    </sensor>
+  </gazebo>
+
+  <!-- ROS2控制插件 -->
+  <gazebo>
+    <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+      <parameters>$(find your_package)/config/controllers.yaml</parameters>
+    </plugin>
+  </gazebo>
+
+</robot>

@@ -1,4 +1,0 @@
-Invoking command in '/mnt/e/UbuntuWSL/Perception-System/build/vehicle_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/e/UbuntuWSL/Perception-System/build/vehicle_description -- -j16 -l16
-Invoked command in '/mnt/e/UbuntuWSL/Perception-System/build/vehicle_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/e/UbuntuWSL/Perception-System/build/vehicle_description -- -j16 -l16
-Invoking command in '/mnt/e/UbuntuWSL/Perception-System/build/vehicle_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/e/UbuntuWSL/Perception-System/build/vehicle_description
-Invoked command in '/mnt/e/UbuntuWSL/Perception-System/build/vehicle_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/e/UbuntuWSL/Perception-System/build/vehicle_description

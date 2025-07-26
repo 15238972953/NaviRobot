@@ -1,4 +1,0 @@
-Invoking command in '/mnt/e/UbuntuWSL/Perception-System/build/perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/e/UbuntuWSL/Perception-System/build/perception -- -j16 -l16
-Invoked command in '/mnt/e/UbuntuWSL/Perception-System/build/perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/e/UbuntuWSL/Perception-System/build/perception -- -j16 -l16
-Invoking command in '/mnt/e/UbuntuWSL/Perception-System/build/perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/e/UbuntuWSL/Perception-System/build/perception
-Invoked command in '/mnt/e/UbuntuWSL/Perception-System/build/perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/e/UbuntuWSL/Perception-System/build/perception
