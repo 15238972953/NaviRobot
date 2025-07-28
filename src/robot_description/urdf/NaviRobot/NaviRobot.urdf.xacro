@@ -26,5 +26,5 @@
 
 <!-- <xacro:gazebo_control_plugin /> -->
 <xacro:gazebo_sensor_plugin />
-<xacro:NaviRbot_ros2_control />
+<xacro:NaviRobot_ros2_control />
 </robot>
