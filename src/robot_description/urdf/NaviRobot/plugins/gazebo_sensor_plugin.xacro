@@ -13,7 +13,7 @@
                 </plugin>
                 <always_on>true</always_on>
                 <visualize>true</visualize>
-                <update_rate>5</update_rate>
+                <update_rate>30</update_rate>
                 <pose>0 0 0 0 0 0</pose>
 								<!-- 激光传感器配置 -->
                 <ray>
@@ -33,15 +33,15 @@
                         <resolution>0.015000</resolution>
                     </range>
                     <!-- 设置噪声 -->
-                    <noise>
+                    <!-- <noise>
                         <type>gaussian</type>
                         <mean>0.0</mean>
                         <stddev>0.01</stddev>
-                    </noise>
+                    </noise> -->
                 </ray>
             </sensor>
         </gazebo>
-
+    </xacro:macro>
         
 
 <gazebo reference="imu_link">
@@ -56,7 +56,7 @@
         <update_rate>100</update_rate>
         <always_on>true</always_on>
         <!-- 六轴噪声设置 -->
-        <imu>
+        <!-- <imu>
             <angular_velocity>
                 <x>
                     <noise type="gaussian">
@@ -109,11 +109,9 @@
                     </noise>
                 </z>
             </linear_acceleration>
-        </imu>
+        </imu> -->
     </sensor>
 </gazebo>
-
-    </xacro:macro>
 
 
 <gazebo reference="camera_link">

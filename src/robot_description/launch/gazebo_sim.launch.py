@@ -60,10 +60,10 @@ def generate_launch_description():
     )
 
     # 加载并激活 fishbot_effort_controller 控制器
-    load_NaviRobot_effort_controller = launch.actions.ExecuteProcess(
-        cmd=['ros2', 'control', 'load_controller', 'NaviRobot_effort_controller',
-            '--set-state', 'active'], 
-        output='screen')
+    # load_NaviRobot_effort_controller = launch.actions.ExecuteProcess(
+    #     cmd=['ros2', 'control', 'load_controller', 'NaviRobot_effort_controller',
+    #         '--set-state', 'active'], 
+    #     output='screen')
     
     # 加载并激活两轮差速控制器
     load_NaviRobot_diff_drive_controller = launch.actions.ExecuteProcess(
